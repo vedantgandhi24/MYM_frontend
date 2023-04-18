@@ -71,7 +71,7 @@ const Component = () => {
 						<div className='your-free-trial-is-about-to-en-wrapper'>
 							<div className='your-free-trial-container'>
 								<span className='your-free-trial-container1'>
-									<p className='your-free-trial-is-about-to-en'>
+									<p className='your-free-trial-is'>
 										Your free trial is about to end in
 										{/* <span className='span'>{` `}</span> */}
 									</p>
@@ -85,7 +85,7 @@ const Component = () => {
 									You will not be billed during your free trial.
 								</p>
 								<p className='your-free-trial-is-about-to-en'>&nbsp;</p>
-								<p className='your-free-trial-is-about-to-en'>
+								<p className='your-free-trial-is'>
 									To keep your projects running after the trial end, upgrade to
 									a paid option.
 								</p>
@@ -442,13 +442,13 @@ const Component = () => {
 					type='text'
 					id='lname'
 					name='lname'
-					placeholder='Search'
 					className='search-input'
+					placeholder='Search'
 				/>
 				{/* <span className='search'>Search</span> */}
-				{/* <a href='#'> */}
-				<img className='vuesaxlinearsearch-normal-icon' alt='' src={search} />
-				{/* </a> */}
+				<a href='#'>
+					<img className='vuesaxlinearsearch-normal-icon' alt='' src={search} />
+				</a>
 			</div>
 		</div>
 	);
